@@ -1,4 +1,30 @@
 # Assignment 1: Best-practices
+This assignment adheres to Best Practices as layout in PEP8 style guide for Python. The python scripts were written in Python 3.0 release 3.6. Development environment set-up includes conda environment managment and installing pycodestyle.
+
+## Software requirement
+### Update and configure Conda done in terminal
+```
+conda update --yes conda
+conda config --add channels bioconda
+echo ". 
+HOME/miniconda3/etc/profile.d/conda.sh" >> HOME/.bashrc
+```
+### Create swe4s environment (require only once)
+```
+conda create --yes -n swe4s
+conda install --yes python=3.6
+```
+### Starting conda (required each time you log in)
+```
+conda activate swe4s
+```
+### Install pycodestyle library with pip or conda, respectively
+```
+pip install pycodestyle
+```
+```
+conda install -y pycodestyle
+```
 
 ## style.py
 ### Updates
