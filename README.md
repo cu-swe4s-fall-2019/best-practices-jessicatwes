@@ -6,8 +6,7 @@ This assignment adheres to Best Practices as layout in PEP8 style guide for Pyth
 ```
 conda update --yes conda
 conda config --add channels bioconda
-echo ". 
-HOME/miniconda3/etc/profile.d/conda.sh" >> HOME/.bashrc
+echo ". HOME/miniconda3/etc/profile.d/conda.sh" >> HOME/.bashrc
 ```
 ### Create swe4s environment (require only once)
 ```
