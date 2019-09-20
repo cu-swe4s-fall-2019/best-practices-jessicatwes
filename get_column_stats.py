@@ -11,10 +11,10 @@ def calc_mean(col_values):
 # Function to calculate standard deviation
 def calc_stdev(col_values, mean_val):
     return math.sqrt(sum([(mean_val-x)**2 for x in col_values])
-                     / len(col_values))
+                     / (len(col_values)-1))
 
 
-# Using argparse to pass in parameters
+# Functional testing using argparse to pass in parameters.
 def parseArgs():
     parser = ap.ArgumentParser(
         description="Passing in file name and number of columns argument",

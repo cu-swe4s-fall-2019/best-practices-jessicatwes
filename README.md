@@ -1,5 +1,7 @@
-# Assignment 1: Best-practices
-This assignment adheres to Best Practices as layout in PEP8 style guide for Python. The python scripts were written in Python 3.0 release 3.6. Development environment set-up includes conda environment managment and installing pycodestyle.
+# Assignment 1 and 2: Best-practices and Unit Testing, respectively
+Part 1 of this assignment (assignment 1) adheres to Best Practices as layout in PEP8 style guide for Python. The python scripts were written in Python 3.0 release 3.6. Development environment set-up includes conda environment managment and installing pycodestyle.
+
+Part 2 of this assignment (assignment 2) adds unit testing.
 
 ## Software requirement
 ### Update and configure Conda done in terminal
@@ -48,7 +50,12 @@ python3 get_column_stats.py --input_file <input_file> --col_num <column_number>
 * Include test for expected values and random values
 
 ### Usage
-Shell script to run tests on get_column_stats.
+Shell script to run functional tests on get_column_stats.
 ```
 bash basics_test.sh
+```
+
+Python script to run unit tests on get_column_stats.
+```
+python basics_test.py
 ```
